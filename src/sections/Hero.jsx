@@ -2,7 +2,7 @@ import { Suspense } from 'react'
 import HeroVisual3D from '../components/HeroVisual3D'
 import logo from '../assets/logo.png'
 
-const DOWNLOAD_URL = 'https://github.com/NARESH-ASHOK-MALI/SyncWave/releases/download/v2.0.1/SyncWave.exe'
+const DOWNLOAD_URL = 'https://github.com/NARESH-ASHOK-MALI/SyncWave/releases/download/v.2.0.2/SyncWave-v2.0.2-win-x64.zip'
 const GITHUB_URL = 'https://github.com/NARESH-ASHOK-MALI/SyncWave'
 
 export default function Hero() {

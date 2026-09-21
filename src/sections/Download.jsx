@@ -1,4 +1,4 @@
-const DOWNLOAD_URL = 'https://github.com/NARESH-ASHOK-MALI/SyncWave/releases/download/v2.0.1/SyncWave.exe'
+const DOWNLOAD_URL = 'https://github.com/NARESH-ASHOK-MALI/SyncWave/releases/download/v.2.0.2/SyncWave-v2.0.2-win-x64.zip'
 
 export default function Download() {
   return (
@@ -33,7 +33,7 @@ export default function Download() {
                   <polyline points="7 10 12 15 17 10"/>
                   <line x1="12" y1="15" x2="12" y2="3"/>
                 </svg>
-                Download SyncWave.exe
+                Download SyncWave.zip
               </a>
             </div>
 
