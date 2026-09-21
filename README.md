@@ -1,16 +1,38 @@
-# React + Vite
+# SyncWave – Documentation & Download Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+This repository hosts the **official documentation and download page** for the [SyncWave](https://github.com/NARESH-ASHOK-MALI/SyncWave) utility — a powerful clipboard synchronization tool for Windows.
 
-Currently, two official plugins are available:
+## 🔗 Download
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+> **Note:** The download is provided as a **ZIP archive** instead of a standalone `.exe` to avoid false-positive "harmful file" warnings from browsers.
 
-## React Compiler
+📦 **[Download SyncWave v2.0.2 (Windows x64 – ZIP)](https://github.com/NARESH-ASHOK-MALI/SyncWave/releases/download/v.2.0.2/SyncWave-v2.0.2-win-x64.zip)**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## About
 
-## Expanding the Oxlint configuration
+This website serves as the landing page for SyncWave, providing:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- **Overview** of SyncWave's features and capabilities
+- **Download links** for the latest release
+- **Documentation** and usage instructions
+
+## Tech Stack
+
+Built with **React** + **Vite** for a fast, modern web experience.
+
+## Getting Started (Development)
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+```
+
+## Related
+
+- [SyncWave – Main Repository](https://github.com/NARESH-ASHOK-MALI/SyncWave)
