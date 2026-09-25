@@ -83,13 +83,15 @@ export default function Feedback() {
 
             <div className="flex flex-col gap-2">
               <label htmlFor="email" className="text-[0.95rem] font-medium text-text-secondary">
-                Email Address (Optional)
+                Email Address
               </label>
               <input
                 type="email"
                 id="email"
                 name="email"
                 placeholder="you@example.com"
+                required
+                
                 className="bg-background border border-border-dark-muted rounded-sm py-2 px-3 text-text-primary font-sans text-base outline-none transition-all duration-300 focus:border-primary focus:shadow-focus placeholder:text-text-muted w-full"
               />
             </div>
