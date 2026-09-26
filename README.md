@@ -6,7 +6,7 @@ This repository hosts the **official documentation and download page** for the [
 
 > **Note:** The download is provided as a **ZIP archive** instead of a standalone `.exe` to avoid false-positive "harmful file" warnings from browsers.
 
-📦 **[Download SyncWave v2.0.2 (Windows x64 – ZIP)](https://github.com/NARESH-ASHOK-MALI/SyncWave/releases/download/v.2.0.2/SyncWave-v2.0.2-win-x64.zip)**
+📦 **[Download SyncWave v2.1.0 (Windows x64 – ZIP)](https://github.com/NARESH-ASHOK-MALI/SyncWave/releases/download/v2.1.0/SyncWave-v2.1.0-win-x64.zip)**
 
 ## About
 

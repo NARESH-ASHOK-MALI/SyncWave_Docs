@@ -1,4 +1,4 @@
-const DOWNLOAD_URL = 'https://github.com/NARESH-ASHOK-MALI/SyncWave/releases/download/v.2.0.2/SyncWave-v2.0.2-win-x64.zip'
+const DOWNLOAD_URL = 'https://github.com/NARESH-ASHOK-MALI/SyncWave/releases/download/v2.1.0/SyncWave-v2.1.0-win-x64.zip'
 
 export default function Download() {
   return (
