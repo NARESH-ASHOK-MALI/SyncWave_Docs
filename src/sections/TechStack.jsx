@@ -77,15 +77,25 @@ export default function TechStack() {
         {/* Performance Stats */}
         <div
           ref={statsRef}
-          className="grid grid-cols-4 gap-5 py-12 px-10 bg-surface-dark border border-border rounded-md max-lg:grid-cols-2 max-lg:gap-8 max-md:px-6 max-md:py-8 max-[480px]:grid-cols-2"
+          className="py-12 px-10 bg-surface-dark border border-border rounded-md max-md:px-6 max-md:py-8"
           style={{ boxShadow: 'var(--shadow-inset)' }}
         >
-          {stats.map((stat, i) => (
-            <div key={i} className="text-center reveal">
-              <div className="stat-value text-[2rem] font-[800] gradient-text mb-1 font-mono">{stat.value}</div>
-              <div className="text-[0.85rem] text-text-muted font-medium">{stat.label}</div>
-            </div>
-          ))}
+          <div className="text-center mb-10">
+            <h3 className="text-[1.4rem] font-bold tracking-[-0.01em] mb-2">
+              ⚡ Performance <span className="gradient-text">Benchmarks</span>
+            </h3>
+            <p className="text-[0.9rem] text-text-muted max-w-[420px] mx-auto">
+              Engineered for real-time audio — minimal footprint, maximum responsiveness.
+            </p>
+          </div>
+          <div className="grid grid-cols-4 gap-5 max-lg:grid-cols-2 max-lg:gap-8 max-[480px]:grid-cols-2">
+            {stats.map((stat, i) => (
+              <div key={i} className="text-center reveal">
+                <div className="stat-value text-[2rem] font-[800] gradient-text mb-1 font-mono">{stat.value}</div>
+                <div className="text-[0.85rem] text-text-muted font-medium">{stat.label}</div>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>
